@@ -1,0 +1,13 @@
+Database:
+  MongoHost: mongo
+  MongoDBName: bakta
+  MongoUser: root
+  MongoAuthSource: admin
+  MongoPort: 27017
+Objectstorage:
+  S3:
+    UserBucket: baktauserdata
+    DBBucket: baktadbs
+    BaseKey: data/dev
+K8sNamespace: "bakta-dev"
+InCluster: true
